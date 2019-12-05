@@ -1,0 +1,11 @@
+
+post http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIxIiwiaWQiOiI1ZDMxYWY3ZGY5MzNjMzJmMGMyZTFiNzciLCJpYXQiOjE1NjM1Mzc4ODN9.NZQJgPAd6Uo6mlb5A21b0ShzDqyfQ2vEpC8rv26WE34
+
+{
+    "url" : "ww.gogle.com",
+    "author" : "se jopse",
+    "title" : "mics offe",
+    "likes" : 0
+}
