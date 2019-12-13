@@ -1,0 +1,11 @@
+
+post http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIxIiwiaWQiOiI1ZDMxYWY3ZGY5MzNjMzJmMGMyZTFiNzciLCJpYXQiOjE1Njg2MTUyMjB9.my46CRn5hC66ZnLqS9fW-tskiMaM7S3XJ1PwdLFX6a4
+
+{
+    "url" : "newurl2",
+    "author" : "sasda33de",
+    "title" : "maaa33e",
+    "likes" : 1
+}
